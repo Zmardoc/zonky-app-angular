@@ -1,0 +1,43 @@
+import { Photo } from "./photo";
+import { Insurance } from "./insurance";
+export class Loan {
+    id: number;
+    url: string
+    name: string;
+    story: string;
+    purpose: string;
+    photos: Photo[];
+    userId: number;
+    nickName: string;
+    termInMonths: number;
+    interestRate:number;
+    revenueRate: number;
+    annuity: number;
+    premium: number;
+    rating: string;
+    topped: boolean;
+    amount: number;
+    remainingInvestment: number;
+    investmentRate: number;
+    covered: boolean;
+    reservedAmount: number;
+    zonkyPlusAmount: number;
+    datePublished: Date;
+    published: boolean;
+    deadline: Date;
+    myOtherInvestments: object;
+    borrowerRelatedInvestmentInfo: object;
+    investmentsCount: number;
+    questionsCount: number;
+    region: number;
+    mainIncomeType: string;
+    questionsAllowed: boolean;
+    activeLoansCount: number;
+    insuranceActive: boolean;
+    insuranceHistory: Insurance[];
+    fastcash: boolean;
+    multicash: boolean;
+    currency: string;
+    insuredInFuture: boolean;
+    annuityWithInsurance: number;
+}

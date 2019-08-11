@@ -1,0 +1,9 @@
+<mat-card class="calculator">
+    <mat-card-title class="title">
+        Průměrná výše půjček
+    </mat-card-title>
+    <mat-card-content>
+      <app-rating-selector [allRatings]="allRatings" (ratingSelected)="computeAvgLoan($event)" [err]="errFetch"></app-rating-selector>
+      <app-avg-loan-amount [loanAmount]="filteredLoans ? filteredLoans.length : 0" [avgLoan]="avgLoan"></app-avg-loan-amount>
+    </mat-card-content>
+</mat-card>

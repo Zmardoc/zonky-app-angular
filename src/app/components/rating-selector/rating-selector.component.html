@@ -1,0 +1,9 @@
+<mat-form-field class="fullWidth">
+  <mat-label>Vyberte rating</mat-label>
+  <mat-select [(value)]="currentRating" (selectionChange)="ratingSelected.emit(currentRating)">
+    <mat-option *ngFor="let rating of allRatings" [value]="rating">{{rating}}</mat-option>
+  </mat-select>
+  <div *ngIf="err" class="errDiv">
+    Byla použita mockovaná data
+  </div>
+</mat-form-field>

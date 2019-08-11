@@ -1,0 +1,24 @@
+nav {
+
+  height: 41px;
+  background-color: #37b4be;
+  width:100%;
+  -webkit-box-shadow: 0 3px 5px -3px rgba(0,0,0,.3);
+  box-shadow: 0 3px 5px -3px rgba(0,0,0,.3);
+}
+.logo {
+  top: 8px;
+  position: absolute;
+  left: 20px;
+  z-index: inherit;
+  height: 29px;
+  color: transparent;
+  background-color: transparent;
+}
+.build {
+  float: right;
+  line-height: 41px;
+  margin-right: 15px;
+  color: white;
+  font-size: 15px;
+}

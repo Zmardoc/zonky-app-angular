@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  api: 'https://api.zonky.cz',
+  version: 0.1
 };

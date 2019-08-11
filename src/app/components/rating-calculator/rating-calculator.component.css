@@ -1,0 +1,11 @@
+.calculator{
+  width: 430px;
+  padding: 37px;
+}
+.title{
+  font-family: Borden, Roboto, sans-serif;
+  font-size: 35px;
+  text-align: left;
+  font-weight: 400;
+  color: #37b4be;
+}
